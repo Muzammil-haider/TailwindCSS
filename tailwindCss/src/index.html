@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwind CSS</title>
+    <!-- <style>
+        h1{
+         text-align: center;
+        
+        }
+    </style> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body class ="bg-black">
+    <header class="flex justify-between  px-3 md:px-5 fixed w-full max-w-[1440px] left-[50%] -translate-x-[50%]">
+        <a  href="#">
+            <img class=" h-20  md:h-32" src="images/Group 2 (1).png" alt="logo">
+        </a>
+        <div class="hidden md:block text-white p-7 space-x-6 lg:text-2xl  ">
+            <a class="font-bold"href="#hero">Home</a>
+            <a class="font-bold"href="#">How its work?</a>
+            <a class="font-bold"href="#">About</a>
+            <a class="font-bold"href="#">Testimonials</a>
+            <a class="font-bold"href="#">Contact us</a>
+        </div>
+        <p class="text-4xl md:hidden text-white">☰</p>
+    </header>
+    <section class="pt-32 bg-[url('./images/herobg.png')] px-16 bg-cover md:bg-contain bg-no-repeat bg-right  max-w-[1440px] mx-auto " id="hero">
+        <div class="md:flex text-white  items-center justify-around  ">
+            <div class="   text-2xl md:text-6xl lg:text-7xl  font-bold leading-[45px] lg:leading-[98px]">
+                <h1>THE <br>SHOE <br>COMPANY</h1>
+            </div>
+            <img class=" md:h-[480px] " src="images/the-white-shoe-hero-image 1.png" alt="SHOE">
+        </div>
+
+    </section>
+    <section id="how-its-work  " class="max-w-[1440px] mx-auto px-16 flex justify-center ">
+        <div>
+        <h2 class="text-center text-4xl text-white font-bold max-w-md mt-16 mx-auto">Have they finally made the perfect workout shoe?</h2>
+        <div class="flex mt-12 justify-around " >
+            <div>
+                <h3 class="text-white  font-bold text-lg">THE HEEL</h3>
+                <p class="text-white  text-[14px] max-w-[180px]">The heel is well-built, has appropriate elevation and is not too rigid.</p>
+                <div class=" ml-20 "><img class="  w-[140px]" src="images/arrow-1 1.png" alt=""></div>
+            </div>
+            <div class="mt-5">
+                <img class="h-[500px]" src="images/how-it-works-image 1.png" alt="shoe image">
+            </div>
+            <div>
+                <div ><img class = "  w-[120px] " src="images/arrow-2 1.png" alt="Arrow"></div>
+                <div>
+                    <h3 class="text-white  font-bold text-lg">THE FRONT</h3>
+                    <p class="text-white  text-[14px] max-w-[180px]">The front is comfortable and adjusts well to the shape of your foot.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div >
+            <div class="flex justify-center" >
+                
+                <div>
+                    <h3 class="text-white  font-bold text-lg">TRACTION</h3>
+                    <p class="text-white  text-[14px] max-w-[180px]">The shoe has good traction and doesn't slip easily.</p>
+                </div>
+                <div ><img class = "w-[100px] " src="images/arrow-3 1.png" alt="Arrow"></div>
+            </div>  
+        </div>
+    </div>
+
+    </section>
+    <section id="aboutus" class="md:flex mt-12 max-w-[1440px] mx-auto">
+        <div><img class="-mr-4 md:p-0  w-[340] md:w-[730px]" src="images/Group 14.png" alt="shoe image"></div>
+        <div>
+            <h2 class="text-white  font-bold text-[32px] md:text-6xl pt-20 pl-16">About Us!</h2>
+                
+    <pre class="text-white  text-[12px] md:text-[18px] font-serif  pl-10 pt-10">
+        For each one of those shoe sweethearts out there, THE 
+        SHOE COMPANY offer the one-stop goal to pick the correct 
+        match of footwear. 
+
+        Gone are the days when you needed to go from store to store
+        to locate the correct style and size for yourself.
+                    
+        At THE SHOE COMPANY,  you can locate a vast 
+        accumulation of dashing footwear in all sizes and styles, all 
+        inside a couple of snaps.
+                    
+        Simple right? Not just we are here to spare your time, we are 
+        putting forth you the most dazzling footwear alternatives from 
+        all the first-rate brands like DAVINCHI, PRINCESS, and 
+        SIGNATURE. At ‘Organization Name’, we offer men, ladies, 
+        and child’s shoes perfect for any and each event.
+        </pre>
+    </div>
+    </section>
+    <section id="testimonials" class="bg-[url('./images/testimonialsbg.png')] mt-12 max-w-[1440px] mx-auto">
+        <div class="p-8">
+            <h2 class="text-center text-4xl text-white font-bold max-w-[520px] mt-16 mx-auto">What People are saying about THE SHOE COMPANY ?</h2>
+            <div class=" justify-self-center md:flex md:justify-evenly pt-16">
+                <div>
+                    <img class="w-36 md:w-64 rounded-full " src="images/id1.png" alt="id"> 
+                    <p class="text-center text-white  text-[12px] md:text-[18px] font-serif  max-w-[200px] md:max-w-[320px] pt-4">“Looking for shoes that are built just for you? THE SHOE COMPANY is the way to go. Love the design and build quality.”</p>
+                </div>
+                <div >
+                    <img class="w-36 md:w-64  rounded-full "src="images/id2.png" alt="id">
+                    <p class="text-center text-white  text-[12px] md:text-[18px] font-serif  max-w-[200px] md:max-w-[320px] pt-4">“I love the shoes, the quality, and everyting. They are worth the investment!”</p>
+                </div>
+                <div>
+                    <img class="w-36 md:w-64  rounded-full"src="images/id3.png" alt="id">
+                    <p class= "text-center text-white  text-[12px] md:text-[18px] font-serif  max-w-[200px] md:max-w-[320px] pt-4">“They make the best and forever lasting shoes. Superb fit and confort is literally the next level. Much recommended!”</p>
+                    
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+    
+</body>
+</html>
